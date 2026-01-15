@@ -13,5 +13,8 @@ public class PropertyTypeConfiguration : IEntityTypeConfiguration<PropertyType>
 
         builder.Property(pt => pt.Name).IsRequired().HasMaxLength(100);
         builder.Property(pt => pt.Description).HasMaxLength(500);
+
+        // Aynı isimde iki PropertyType olamaz
+        builder.HasIndex(pt => pt.Name).IsUnique();
     }
 }
