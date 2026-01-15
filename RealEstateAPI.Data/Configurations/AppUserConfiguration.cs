@@ -13,5 +13,9 @@ public class AppUserConfiguration : IEntityTypeConfiguration<AppUser>
         builder.Property(u => u.ProfilePicture).HasMaxLength(1000);
         builder.Property(u => u.AgencyName).HasMaxLength(200);
         builder.Property(u => u.LicenseNumber).HasMaxLength(50);
+
+        // Email ve IsAgent'a göre sık arama yapılacağı için index
+        builder.HasIndex(u => u.Email);
+        builder.HasIndex(u => u.IsAgent);
     }
 }
