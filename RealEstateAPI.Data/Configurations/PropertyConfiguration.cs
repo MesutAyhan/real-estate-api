@@ -27,16 +27,28 @@ public class PropertyConfiguration : IEntityTypeConfiguration<Property>
 
         // İlişkiler
         
-        // Property -> PropertyType 
+        // Property -> PropertyType (Çoka-Bir)
         builder.HasOne(p => p.PropertyType)
             .WithMany(pt => pt.Properties)
             .HasForeignKey(p => p.PropertyTypeId)
             .OnDelete(DeleteBehavior.Restrict);
 
-        // Property -> Agent 
+        // Property -> Agent (Çoka-Bir)
         builder.HasOne(p => p.Agent)
             .WithMany(u => u.Properties)
             .HasForeignKey(p => p.AgentId)
             .OnDelete(DeleteBehavior.Restrict);
+
+        // Property -> PropertyImages 
+        builder.HasMany(p => p.Images)
+            .WithOne(pi => pi.Property)
+            .HasForeignKey(pi => pi.PropertyId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        // Property -> Inquiries  
+        builder.HasMany(p => p.Inquiries)
+            .WithOne(i => i.Property)
+            .HasForeignKey(i => i.PropertyId)
+            .OnDelete(DeleteBehavior.Cascade);
     }
 }
