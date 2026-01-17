@@ -14,7 +14,7 @@ public class InquiryConfiguration : IEntityTypeConfiguration<Inquiry>
         builder.Property(i => i.Name).IsRequired().HasMaxLength(100);
         builder.Property(i => i.Email).IsRequired().HasMaxLength(255);
         builder.Property(i => i.Phone).HasMaxLength(20);
-        builder.Property(i => i.Message).IsRequired().HasMaxLength(1000);
+        builder.Property(i => i.Message).IsRequired().HasMaxLength(1907);
         builder.Property(i => i.Status).IsRequired();
 
         // User silindiğinde UserId null olsun (kayıtsız kullanıcı gibi)

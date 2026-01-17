@@ -11,7 +11,7 @@ public class PropertyImageConfiguration : IEntityTypeConfiguration<PropertyImage
         builder.ToTable("PropertyImages");
         builder.HasKey(pi => pi.Id);
 
-        builder.Property(pi => pi.ImageUrl).IsRequired().HasMaxLength(1000);
+        builder.Property(pi => pi.ImageUrl).IsRequired().HasMaxLength(1907);
         builder.Property(pi => pi.DisplayOrder).IsRequired();
         builder.Property(pi => pi.IsPrimary).IsRequired();
     }
