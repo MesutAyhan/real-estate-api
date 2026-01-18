@@ -58,7 +58,6 @@ C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Humanizer.dll
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Microsoft.Build.dll
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Microsoft.Build.Framework.dll
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Microsoft.Build.Tasks.Core.dll
@@ -81,14 +80,10 @@ C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Microsoft.NET.StringTools.dll
-C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Microsoft.OpenApi.dll
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Mono.TextTemplating.dll
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Newtonsoft.Json.dll
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Npgsql.dll
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\System.CodeDom.dll
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\System.Composition.AttributedModel.dll
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\bin\Debug\net10.0\System.Composition.Convention.dll
@@ -181,7 +176,6 @@ C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\obj\Debug\net10.0\RealEstateAPI.API.AssemblyInfoInputs.cache
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\obj\Debug\net10.0\RealEstateAPI.API.AssemblyInfo.cs
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\obj\Debug\net10.0\RealEstateAPI.API.csproj.CoreCompileInputs.cache
-C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\obj\Debug\net10.0\RealEstateAPI.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\obj\Debug\net10.0\RealEstateAPI.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\obj\Debug\net10.0\RealEstateAPI.API.sourcelink.json
 C:\Users\MwKenobi\Desktop\real estate api project\real-estate-api\RealEstateAPI.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
